@@ -1,0 +1,62 @@
+<mat-toolbar color="primary">
+  <span>MY APP</span>
+  <span class="example-spacer"></span>
+  <button mat-icon-button (click)="navToHome()">
+    <mat-icon>home</mat-icon>
+  </button>
+</mat-toolbar>
+<div class="content">
+  <mat-card class="mat-elevation-z7">
+    <mat-card-header
+      class="bg-accent"
+      fxLayout="row"
+      fxLayoutAlign="space-between center"
+    >
+      <div fxLayout="row">
+        <mat-card-title class="final-price-tag"
+          >CART TOTAL - {{ totalCartValue | currency: "INR" }}</mat-card-title
+        >
+      </div>
+      <div fxLayout="row">
+        <mat-card-title>
+          <button
+            *ngIf="cartProducts.length > 0"
+            mat-flat-button
+            color="accent"
+            (click)="placeOrder()"
+          >
+            Place Order
+          </button>
+        </mat-card-title>
+      </div>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-list *ngIf="cartProducts.length > 0">
+      <mat-list-item *ngFor="let product of cartProducts; let i = index">
+        <img matListAvatar [src]="product.img_url" />
+        <h3 matLine>{{ product.name }}</h3>
+        <p matLine>
+          <span class="final-price-tag"> FINAL PRICE = </span>
+          <span class="original-price-tag">
+            ORIGINAL PRICE :
+            {{ product.price | currency: "INR" }} -
+          </span>
+          <span class="discount-price-tag">
+            DISCOUNT({{ product.discount_percentage }}% off) :
+            {{ product.price - product.discount_price | currency: "INR" }}
+          </span>
+          <span class="final-price-tag">
+            = {{ product.discount_price | currency: "INR" }}
+          </span>
+        </p>
+        <button mat-icon-button (click)="deleteProductFormCart(product)">
+          <mat-icon color="warn">delete_forever</mat-icon>
+        </button>
+        <mat-divider></mat-divider>
+      </mat-list-item>
+    </mat-list>
+    <h5 *ngIf="cartProducts.length === 0" class="p-2">
+      {{ emptyCartText }}
+    </h5>
+  </mat-card>
+</div>

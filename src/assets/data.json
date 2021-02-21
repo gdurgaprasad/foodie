@@ -1,0 +1,279 @@
+[
+  {
+    "id": 1,
+    "name": "Mutton Gravy + 2 Roti",
+    "price": 350,
+    "discount_price": 300,
+    "discount_percentage": 17.5,
+    "img_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 2,
+    "name": "3 Dosa + Mutton Gravy",
+    "price": 300,
+    "discount_price": 270,
+    "discount_percentage": 10,
+    "img_url": "https://images.pexels.com/photos/941869/pexels-photo-941869.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "INDIAN",
+    "availability": ["BREAKFAST", "LUNCH", "DINNER"]
+  },
+  {
+    "id": 3,
+    "name": "2 Idli + Sambar",
+    "price": 100,
+    "discount_price": 70,
+    "discount_percentage": 30,
+    "img_url": "https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["BREAKFAST", "DINNER"]
+  },
+
+  {
+    "id": 4,
+    "name": "Chicken Shawarma Roll 1 piece",
+    "price": 150,
+    "discount_price": 138,
+    "discount_percentage": 12,
+    "img_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "NORTH INDIAN",
+    "availability": ["DINNER"]
+  },
+
+  {
+    "id": 5,
+    "name": "Paneer Fry 450GM",
+    "price": 400,
+    "discount_price": 360,
+    "discount_percentage": 10,
+    "img_url": "https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 6,
+    "name": "Paneer Gravy",
+    "price": 200,
+    "discount_price": 100,
+    "discount_percentage": 50,
+    "img_url": "https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 7,
+    "name": "Chicken Sandwich 1 piece",
+    "price": 100,
+    "discount_price": 80,
+    "discount_percentage": 20,
+    "img_url": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "NORTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 8,
+    "name": "Mutton Deep Fry - 2 Pieces",
+    "price": 300,
+    "discount_price": 255,
+    "discount_percentage": 15,
+    "img_url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 9,
+    "name": "Schezwan Chicken Noodles",
+    "price": 150,
+    "discount_price": 147,
+    "discount_percentage": 2,
+    "img_url": "https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "NORTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 10,
+    "name": "Chicken Noodles",
+    "price": 140,
+    "discount_price": 129,
+    "discount_percentage": 8,
+    "img_url": "https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "NORTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 11,
+    "name": "Vegetable Salad - 500GM",
+    "price": 350,
+    "discount_price": 315,
+    "discount_percentage": 15,
+    "img_url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["BREAKFAST", "LUNCH", "DINNER"]
+  },
+  {
+    "id": 12,
+    "name": "Mutton Chukka + Dal",
+    "price": 400,
+    "discount_price": 320,
+    "discount_percentage": 20,
+    "img_url": "https://images.pexels.com/photos/929192/pexels-photo-929192.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "NORTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 13,
+    "name": "Dry Fruit Combo - 200GM",
+    "price": 500,
+    "discount_price": 400,
+    "discount_percentage": 20,
+    "img_url": "https://images.pexels.com/photos/1295572/pexels-photo-1295572.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["BREAKFAST"]
+  },
+  {
+    "id": 14,
+    "name": "Bread Omlett + Spicy Potato Slices",
+    "price": 70,
+    "discount_price": 63,
+    "discount_percentage": 10,
+    "img_url": "https://images.pexels.com/photos/62097/pexels-photo-62097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["BREAKFAST", "DINNER"]
+  },
+  {
+    "id": 15,
+    "name": "Dark Choclate Cake - 500GM",
+    "price": 450,
+    "discount_price": 315,
+    "discount_percentage": 30,
+    "img_url": "https://images.pexels.com/photos/132694/pexels-photo-132694.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 16,
+    "name": "Potato Chips - 200GM",
+    "price": 100,
+    "discount_price": 78,
+    "discount_percentage": 22,
+    "img_url": "https://images.pexels.com/photos/262897/pexels-photo-262897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 17,
+    "name": "Raw Peanuts- 100GM(Germinated)",
+    "price": 150,
+    "discount_price": 75,
+    "discount_percentage": 50,
+    "img_url": "https://images.pexels.com/photos/674483/pexels-photo-674483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["BREAKFAST", "DINNER"]
+  },
+  {
+    "id": 18,
+    "name": "Mango Ice Cream - 3 Scoops",
+    "price": 200,
+    "discount_price": 120,
+    "discount_percentage": 40,
+    "img_url": "https://images.pexels.com/photos/3625373/pexels-photo-3625373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["LUNCH"]
+  },
+  {
+    "id": 19,
+    "name": "Spicy Potato slices - 50",
+    "price": 60,
+    "discount_price": 54,
+    "discount_percentage": 6,
+    "img_url": "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "NORTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 20,
+    "name": "Chicken Grill - Full",
+    "price": 500,
+    "discount_price": 450,
+    "discount_percentage": 10,
+    "img_url": "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 21,
+    "name": "Doughnuts-15 Pieces",
+    "price": 150,
+    "discount_price": 120,
+    "discount_percentage": 20,
+    "img_url": "https://images.pexels.com/photos/890577/pexels-photo-890577.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 22,
+    "name": "Pork Grill- Half",
+    "price": 300,
+    "discount_price": 200,
+    "discount_percentage": 33.33,
+    "img_url": "https://images.pexels.com/photos/236887/pexels-photo-236887.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 23,
+    "name": "Lamb Curry",
+    "price": 230,
+    "discount_price": 207,
+    "discount_percentage": 10,
+    "img_url": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 24,
+    "name": "Chicken Burger",
+    "price": 120,
+    "discount_price": 96,
+    "discount_percentage": 20,
+    "img_url": "https://images.pexels.com/photos/750073/pexels-photo-750073.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "NON-VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["LUNCH", "DINNER"]
+  },
+  {
+    "id": 25,
+    "name": "Raw Fruit Salad",
+    "price": 500,
+    "discount_price": 200,
+    "discount_percentage": 60,
+    "img_url": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "type": "VEG",
+    "cuisine": "SOUTH INDIAN",
+    "availability": ["BREAKFAST", "LUNCH", "DINNER"]
+  }
+]

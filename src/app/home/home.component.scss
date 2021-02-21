@@ -1,0 +1,64 @@
+.content {
+  padding: 0.5rem;
+}
+
+.content {
+  mat-card {
+    width: 25;
+  }
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-card-image,
+h3 {
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 800;
+}
+
+mat-card-content {
+  margin-bottom: 0px !important;
+}
+
+.user-search {
+  width: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  font-size: 14px;
+  .mat-form-field {
+    width: 100% !important;
+    text-align: center !important;
+    height: 36px;
+  }
+  .mat-form-field-infix {
+    padding: 5px;
+    width: 100px;
+  }
+  .mat-input-element {
+    text-align: center;
+  }
+  &.show {
+    width: 100%;
+    overflow: visible;
+  }
+}
+
+.price-tag {
+  margin-left: 5px;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+
+.discount-tag {
+  margin-left: 5px;
+  color: green;
+}
+.item-type-icon {
+  margin-top: auto;
+}

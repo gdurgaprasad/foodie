@@ -1,0 +1,100 @@
+<mat-toolbar
+  color="primary"
+  fxLayout="row"
+  fxLayoutAlign="space-between center"
+>
+  <div fxLayout="row">
+    <span>FOODIE</span>
+  </div>
+  <form class="user-search" [class.show]="showSearch">
+    <mat-form-field class="user-search-input">
+      <input
+        matInput
+        placeholder="Type to search product ...."
+        name="search"
+        [(ngModel)]="searchText"
+        autocomplete="off"
+      />
+    </mat-form-field>
+  </form>
+  <div fxLayout="row">
+    <button
+      mat-icon-button
+      title="click here to search a product"
+      (click)="showSearch = !showSearch"
+    >
+      <mat-icon>search</mat-icon>
+    </button>
+    <button
+mat-icon-button
+class="example-icon"
+(click)="navToCart()"
+aria-label="Example icon-button with share icon"
+>
+<mat-icon
+  matBadgeOverlap="true"
+  [matBadge]="cartCount"
+  MatBadgePosition="after"
+  >shopping_cart</mat-icon
+>
+</button>
+<button
+mat-icon-button
+class="example-icon"
+(click)="navToOrderHistory()"
+aria-label="Example icon-button with share icon"
+>
+<mat-icon>history</mat-icon>
+</button>
+
+  </div>
+</mat-toolbar>
+
+<div *ngIf="loading">
+  <mat-progress-bar class="example-margin" color="primary" mode="indeterminate">
+  </mat-progress-bar>
+</div>
+
+<div class="content" fxLayout="row wrap" fxLayoutGap="10px grid">
+  <div
+    fxFlex="25%"
+    fxFlex.xs="100%"
+    fxFlex.sm="33%"
+    fxFlex.md="50%"
+    *ngFor="let product of products | filter: searchText"
+  >
+    <mat-card class="mat-elevation-z4">
+      <img mat-card-image [src]="product.img_url" loading="lazy" />
+      <mat-card-content>
+        <h3>
+          {{ product.name | titlecase }}
+        </h3>
+        <h4>
+          {{ product.discount_price | currency: "INR" }}
+          <span class="price-tag">{{ product.price }}</span>
+          <span class="discount-tag"
+            >{{ product.discount_percentage }}% off</span
+          >
+        </h4>
+        <mat-chip-list aria-label="Availabilty">
+          <mat-chip *ngFor="let item of product.availability">{{
+            item
+          }}</mat-chip>
+        </mat-chip-list>
+      </mat-card-content>
+      <mat-card-actions fxLayout="row" fxLayoutAlign="space-between center">
+        <mat-chip-list aria-label="Availabilty">
+          <mat-chip
+            [color]="product.type == 'VEG' ? 'primary' : 'warn'"
+            selected
+            >{{ product.type }}</mat-chip
+          >
+        </mat-chip-list>
+        <button mat-raised-button color="accent" (click)="addToCart(product)">
+          <mat-icon>add_shopping_cart</mat-icon>
+          Add to cart
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
